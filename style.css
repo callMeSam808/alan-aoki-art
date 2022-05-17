@@ -13,6 +13,7 @@ body {
 
 .navbar-brand, .nav-link {
   color: #2155CD;
+  padding: 0 .5rem;
 }
 
 .navbar-toggler {
