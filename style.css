@@ -1,5 +1,10 @@
 .navbar {
-  background-color: #E8F9FD;
+  background-color: rgb(232, 249, 253, 0.75);
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .navbar-brand, .nav-link {
