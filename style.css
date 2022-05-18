@@ -1,11 +1,12 @@
 body {
   font-family: 'Cinzel', serif;
+  font-weight: bolder;
   background-color: #E8F9FD;
-  color: #2155CD;
+  color: #0b379c;
 }
 
 p {
-  font-size: large;
+  font-size: larger;
 }
 
 section:before { 
@@ -23,27 +24,37 @@ section:before {
 .navbar-brand {
   font-size: 2rem;
   font-weight: bold;
+  padding: 0 1rem;
+  margin-left: .25rem;
+}
+
+.navbar-collapse {
+  margin-right: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.25rem;
 }
 
 .navbar-brand, .nav-link {
-  color: #2155CD;
-  padding: 0 .5rem;
+  color: #0b379c;
 }
 
 .navbar-toggler {
-  border-color: #2155CD;
+  border-color: #0b379c;
+  margin-right: 2rem;
 }
 
 .navbar-toggler:focus {
-  color: #2155CD;
+  color: #0b379c;
 }
 
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(33, 85, 205)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(11, 55, 156)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
-  background-color: rgb(33, 85, 205, 0.75);
+  background-color: rgb(11, 55, 156, 0.75);
   border-radius: 50%;
 }
 
@@ -54,16 +65,22 @@ section:before {
   padding-bottom: .25rem;
   background-color: rgb(232, 249, 253, 0.75);
   border-radius: 50%;
-  color: #2155CD;
+  color: #0b379c;
 }
 
 .carousel-indicators [data-bs-target] {
-  background-color: #2155CD;
+  background-color: #0b379c;
 }
 
 h3 {
   text-align: center;
-  color: #2155CD;
+  color: #0b379c;
+}
+
+.bio {
+  background-color: #a5effa;
+  border-radius: 2%;
+  padding: 1rem;
 }
 
 .gallery {
@@ -101,7 +118,7 @@ h3 {
   width: 80%;
   max-width: 700px;
   text-align: center;
-  color: #2155CD;
+  color: #0b379c;
   padding: 10px 0;
   height: 150px;
   font-size: x-large;
@@ -127,10 +144,11 @@ h3 {
 
 /* The Close Button */
 .close {
-  position: absolute;
-  top: 1.5rem;
-  left: 50%;
-  color: #2155CD;
+  position: relative;
+  bottom: 11.5rem;
+  left: 85vw;
+  color: #E8F9FD;
+  border-radius: 50%;
   font-size: 80px;
   font-weight: bolder;
   transition: 0.3s;
