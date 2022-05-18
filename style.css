@@ -1,6 +1,19 @@
 body {
   font-family: 'Cinzel', serif;
   background-color: #E8F9FD;
+  color: #2155CD;
+}
+
+p {
+  font-size: large;
+}
+
+section:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -60px; 
+  height: 60px; 
+  visibility: hidden; 
 }
 
 .navbar {

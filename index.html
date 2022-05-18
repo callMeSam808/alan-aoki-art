@@ -81,90 +81,96 @@
   </div>
 
   <!--Bio-->
-  <h3>Bio</h3>
-  <div>
-
-  </div>
+  <section id="bio">
+    <h3 class="my-3">Bio</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <img class="rounded-circle" src="images/alanAoki.jpg" alt="A picture of artist Alan Aoki.">
+        </div>
+        <div class="col-9 m-auto">
+          <p>Alan Aoki was born in 1940. His education in art began in 1954 at the
+          Okyu Ito Art School in Tokyo, Japan. He went on to study art in the Roka
+          Hasegawa Art School in Tokyo, Japan. Since then, Alan has exhibited his
+          artwork in cities all over the world, including San Francisco, New York,
+          Chicago, Honolulu and Tokyo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Gallery -->
-  <h3 id="gallery">Gallery</h3>
-  <div class="row">
-    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-      <img
-        src="images/backToTheDeep.png"
-        class="w-100 shadow-1-strong rounded mb-4 gallery"
-        alt="Painting of a Humpback whale diving in an ocean made of Plumeria flowers."
-        id="Back To The Deep"
-      />
-
-      <img
-        src="images/dolphins.png"
-        class="w-100 shadow-1-strong rounded mb-4 gallery"
-        alt="Painting of dolphins in a wave."
-        id="Dolphins"
-      />
-
-      <img
-        src="images/plumeriaWave2.png"
-        class="w-100 shadow-1-strong rounded mb-4 gallery"
-        alt="Painting of a wave of made of Plumeria flowers."
-        id="Plumeria Wave 2"
-      />
+  <section id="gallery">
+    <h3 class="my-3">Gallery</h3>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <img
+          src="images/backToTheDeep.png"
+          class="w-100 shadow-1-strong rounded mb-4 gallery"
+          alt="Painting of a Humpback whale diving in an ocean made of Plumeria flowers."
+          id="Back To The Deep"
+        />
+        <img
+          src="images/dolphins.png"
+          class="w-100 shadow-1-strong rounded mb-4 gallery"
+          alt="Painting of dolphins in a wave."
+          id="Dolphins"
+        />
+        <img
+          src="images/plumeriaWave2.png"
+          class="w-100 shadow-1-strong rounded mb-4 gallery"
+          alt="Painting of a wave of made of Plumeria flowers."
+          id="Plumeria Wave 2"
+        />
+      </div>
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <img
+          src="images/dolphins2.png"
+          class="w-100 shadow-1-strong rounded mb-4 gallery"
+          alt="Painting of dolphins swimming in the ocean at sunset."
+          id="Dolphins 2"
+        />
+        <img
+          src="images/lava.png"
+          class="w-100 shadow-1-strong rounded mb-4 gallery"
+          alt="Painting of flowing lava."
+          id="Lava"
+        />
+        <img
+          src="images/sunsetKayak.png"
+          class="w-100 shadow-1-strong rounded mb-4 gallery"
+          alt="Painting of kayaker at sunset."
+          id="Sunset Kayak"
+        />
+      </div>
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <img
+          src="images/palmsAndWaves.png"
+          class="w-100 shadow-1-strong rounded mb-4 gallery"
+          alt="Painting of a couple palm trees with waves cresting in the background at sunset."
+          id="Palms & Waves"
+        />
+        <img
+          src="images/plumeriaWave.png"
+          class="w-100 shadow-1-strong rounded mb-4 gallery"
+          alt="Painting of a wave of made of Plumeria flowers."
+          id="Plumeria Wave"
+        />
+        <img
+          src="images/volcano.png"
+          class="w-100 shadow-1-strong rounded mb-4 gallery"
+          alt="Painting an erupting volcano."
+          id="Volcano"
+        />
+      </div>
     </div>
-
-    <div class="col-lg-4 mb-4 mb-lg-0">
-      <img
-        src="images/dolphins2.png"
-        class="w-100 shadow-1-strong rounded mb-4 gallery"
-        alt="Painting of dolphins swimming in the ocean at sunset."
-        id="Dolphins 2"
-      />
-
-      <img
-        src="images/lava.png"
-        class="w-100 shadow-1-strong rounded mb-4 gallery"
-        alt="Painting of flowing lava."
-        id="Lava"
-      />
-
-      <img
-        src="images/sunsetKayak.png"
-        class="w-100 shadow-1-strong rounded mb-4 gallery"
-        alt="Painting of kayaker at sunset."
-        id="Sunset Kayak"
-      />
+    <!--Modal-->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
     </div>
-
-    <div class="col-lg-4 mb-4 mb-lg-0">
-      <img
-        src="images/palmsAndWaves.png"
-        class="w-100 shadow-1-strong rounded mb-4 gallery"
-        alt="Painting of a couple palm trees with waves cresting in the background at sunset."
-        id="Palms & Waves"
-      />
-
-      <img
-        src="images/plumeriaWave.png"
-        class="w-100 shadow-1-strong rounded mb-4 gallery"
-        alt="Painting of a wave of made of Plumeria flowers."
-        id="Plumeria Wave"
-      />
-
-      <img
-        src="images/volcano.png"
-        class="w-100 shadow-1-strong rounded mb-4 gallery"
-        alt="Painting an erupting volcano."
-        id="Volcano"
-      />
-    </div>
-  </div>
-
-  <!--Modal-->
-  <div id="myModal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="img01">
-    <div id="caption"></div>
-  </div>
+  </section>
 
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
