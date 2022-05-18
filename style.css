@@ -22,7 +22,7 @@ section:before {
 }
 
 .navbar-brand {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: bold;
   padding: 0 1rem;
   margin-left: .25rem;
@@ -166,4 +166,8 @@ h3 {
   .modal-content {
     width: 100%;
   }
+}
+
+.footer {
+  background-color: #a5effa;
 }
